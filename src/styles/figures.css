@@ -1,0 +1,19 @@
+.figures
+{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cross
+{
+    color: aquamarine;
+}
+
+.circle
+{
+    color: rgb(253, 253, 43);
+}

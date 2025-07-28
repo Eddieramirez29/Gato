@@ -1,0 +1,39 @@
+.grid-container
+{
+    width: 420px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    /* border:1px solid white; */
+    gap:15px;
+}
+
+.item
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 120px;
+    height: 120px;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px black;
+    background-color: #1f3540;
+}
+
+.item:hover
+{
+    background-color: #437086;
+}
+
+.item:active
+{
+    transform: scale(0.95);
+}
+.item >*
+{
+    display:none;
+}
