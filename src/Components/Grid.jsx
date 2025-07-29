@@ -16,7 +16,7 @@ function Grid()
 
     const verifyWhoWins = () =>
     {
-        
+        console.log("Checking for winner...", position);
 
             // Rows
             if (position[0] === "x" && position[1] === "x" && position[2] === "x")
