@@ -9,6 +9,32 @@
     gap:15px;
 }
 
+.game-message {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #111;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 10;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.game-message button 
+{
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+
 .item
 {
     margin-top: 15px;
