@@ -140,6 +140,7 @@ function Grid()
 
     useEffect(() => 
     {
+        console.log("Position changed:", position);
         verifyWhoWins();
     }, [position]);
 
