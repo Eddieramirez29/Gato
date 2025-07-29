@@ -1,8 +1,26 @@
-# React + Vite
+# Tic Tac Toe (Gato) - React Game 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet functional Tic Tac Toe (Gato) game built with React.  
+The user plays as **X**, and the computer plays as **O**. The computer picks empty positions randomly.
 
-Currently, two official plugins are available:
+## 🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User vs Computer logic
+- Automatic turn switching
+- Random AI moves
+- Win, lose or draw detection
+- Responsive 3x3 grid
+- React Hooks for state management
+- Game result message + replay button
+
+## 🛠 Technologies
+
+- React
+- CSS
+- JavaScript
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+## 📸 Screenshot
+
+![Tic Tac Toe](./image.png)
+
